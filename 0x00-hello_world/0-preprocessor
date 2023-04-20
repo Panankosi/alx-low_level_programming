@@ -1,0 +1,9 @@
+#!/bin/bash
+gcc $CFILE -E -o c
+
+Explanation
+The Bash script consists of two lines of code. The first line starts with #!/bin/bash, which is called a shebang. It tells the shell which interpreter to use to execute the script. In this case, it specifies that the script should be executed using the Bash shell.
+
+The second line of the script uses the gcc command to compile a C file. The $CFILE variable is used to specify the name of the C file to be compiled. The -E option tells gcc to stop after the preprocessing stage and output the result to a file called c. The -o option specifies the output file name.
+
+In summary, the Bash script compiles a C file into a preprocessed file using the gcc command. The preprocessed file is named c
