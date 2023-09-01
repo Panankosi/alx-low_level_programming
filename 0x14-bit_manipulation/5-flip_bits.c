@@ -2,7 +2,7 @@
 
 /**
  * flip_bits - returns the number of bits you would
- * wantsto flip to get from one number to the other
+ * need to flip to get from one number to another
  * @n: first input unsigned long
  * @m: second input unsigned long
  * Return: how many bits needed to flip
@@ -17,7 +17,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 		if (1 & x)
 			flip++;
 		x = x >> 1;
-
 	}
 
 	return (flip);
